@@ -376,9 +376,255 @@
     <None Include="src\config\conf_board.h">
       <SubType>compile</SubType>
     </None>
+    <Compile Include="src\libraries\AP_Common\AP_Common.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Common\AP_Common.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_Glitch.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_Glitch.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_MTK.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_MTK.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_MTK19.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_MTK19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_MTK_Common.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_NMEA.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_NMEA.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_SBP.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_SBP.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_SIRF.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_SIRF.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_UBLOX.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\AP_GPS_UBLOX.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\GPS_Backend.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\GPS_Backend.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_GPS\GPS_detect_state.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\AP_HAL.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\AP_HAL_Boards.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\AP_HAL_Macros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\AP_HAL_Namespace.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\HAL.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\Scheduler.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL\UARTDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\AP_HAL_Empty.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\AP_HAL_Empty_Namespace.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\AP_HAL_Empty_Private.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\HAL_Empty_Class.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\HAL_Empty_Class.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\Scheduler.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\Scheduler.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\UARTDriver.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_HAL_Empty\UARTDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\AP_Math.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\AP_Math.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\AP_Math_AVR_Compat.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\edc.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\edc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\location.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\matrix3.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\matrix3.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\polygon.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\polygon.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\quaternion.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\quaternion.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\rotations.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\vector2.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\vector2.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\vector3.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\vector3.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Math\vectorN.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\AP_BoardLED.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\AP_BoardLED.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\AP_Notify.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\AP_Notify.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\Buzzer.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\Buzzer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ExternalLED.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ExternalLED.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToneAlarm_PX4.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToneAlarm_PX4.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToshibaLED.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToshibaLED.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToshibaLED_I2C.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToshibaLED_I2C.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToshibaLED_PX4.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Notify\ToshibaLED_PX4.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Param\AP_Param.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Param\AP_Param.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Progmem\AP_Progmem.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Progmem\AP_Progmem_Identity.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\AP_Vehicle\AP_Vehicle.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\GCS_MAVLink\GCS_MAVLink.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\GCS_MAVLink\GCS_MAVLink.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\StorageManager\StorageManager.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\libraries\StorageManager\StorageManager.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="src\main.c">
       <SubType>compile</SubType>
     </Compile>
+    <None Include="src\libraries\AP_Math\keywords.txt">
+      <SubType>compile</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
@@ -403,6 +649,18 @@
     <Folder Include="src\ASF\common\utils\" />
     <Folder Include="src\ASF\common\utils\interrupt\" />
     <Folder Include="src\config\" />
+    <Folder Include="src\libraries\" />
+    <Folder Include="src\libraries\AP_Common\" />
+    <Folder Include="src\libraries\AP_GPS\" />
+    <Folder Include="src\libraries\AP_HAL\" />
+    <Folder Include="src\libraries\AP_HAL_Empty\" />
+    <Folder Include="src\libraries\AP_Math\" />
+    <Folder Include="src\libraries\AP_Notify\" />
+    <Folder Include="src\libraries\AP_Param\" />
+    <Folder Include="src\libraries\AP_Progmem\" />
+    <Folder Include="src\libraries\AP_Vehicle\" />
+    <Folder Include="src\libraries\GCS_MAVLink\" />
+    <Folder Include="src\libraries\StorageManager\" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
